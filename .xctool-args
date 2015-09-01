@@ -1,0 +1,7 @@
+[
+  "-project", "VIPER-SWIFT.xcodeproj",
+  "-scheme", "VIPER-SWIFT",
+  "-configuration", "Debug",
+  "-sdk", "iphonesimulator",
+  "-arch", "i386"
+]
