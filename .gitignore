@@ -1,3 +1,5 @@
 VIPER-SWIFT.ipa
 *.xcuserstate
 VIPER-SWIFT.app.dSYM.zip
+fastlane/report.xml
+VIPER-SWIFT.xcodeproj/project.xcworkspace/xcuserdata/AMuto.xcuserdatad/*.xcuserstate
