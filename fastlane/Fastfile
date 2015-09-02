@@ -24,7 +24,7 @@ default_platform :ios
 platform :ios do
 
   before_all do
-    # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
+    ENV["SLACK_URL"] = "https://hooks.slack.com/services/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"
 
     # cocoapods
 
@@ -66,7 +66,6 @@ platform :ios do
     # This block is called, only if the executed lane was successful
 
     slack(
-      slack_url: "https://hooks.slack.com/services/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",
       message: "Successfully deployed new App Update.",
       success: true
     )
@@ -75,7 +74,6 @@ platform :ios do
 
   error do |lane, exception|
     slack(
-      slack_url: "https://hooks.slack.com/services/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",
       message: exception.message,
       success: false
     )
